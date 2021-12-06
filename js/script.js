@@ -61,3 +61,8 @@ function eventosGaleria(img) {
 }
 
 galeria.forEach(eventosGaleria)
+
+//Animacao
+if (window.SimpleAnime) {
+  new SimpleAnime()
+}
